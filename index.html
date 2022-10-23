@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/Styles/Header.css">
+        <link rel="stylesheet" href="/Styles/general.css">
+        <link rel="stylesheet" href="/Styles/Navbar.css">
+        <link rel="stylesheet" href="/Styles/images.css">
+        <link rel="stylesheet" href="/Styles/div-startseite.css">
+        <link rel="stylesheet" href="/Styles/footer.css">
+        <link rel="icon" type="image/png" href="/Bilder/Logo.jpg">
+        
+        <title> TCBW Türnich</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <style>
+
+
+
+.flexbox_header{
+  background-color: rgb(33,60,91);
+  height: 5rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+
+.titel_schrift{
+  color: white;
+  font-family: Roboto, Arial;
+}
+
+.titel_schrift h1{
+ font-weight: 400;
+}
+
+.span_titel{
+  font-weight: 100;
+}
+
+
+nav ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+    text-align: center;
+}
+
+nav ul{
+  align-self: center;
+  display: inline-block ;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    padding:0px 15px 0 15px;
+    display: block;
+    font-family: Roboto, Arial;
+}
+nav ul li a:hover{
+    text-decoration: underline
+    
+}
+nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: rgb(33,60,91);
+    padding: 7px;
+    border-radius: 0px 0px 12px 12px;
+}
+
+nav ul li:hover ul{
+    display: block;
+}
+
+
+nav ul li ul li a{
+    color: white;
+    padding: 16px 20px;
+    border-radius: 10px;
+}
+nav ul li ul li a:hover{
+    background-color: rgb(63, 99, 139);
+    text-decoration: none;
+}
+
+
+.flexbox_header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.grid_layout_index{
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+}
+
+
+.grid_index_item{
+    grid-column: 1 / 4;
+}
+.grid_item_index2{
+    grid-column: 2 / 3;
+}
+
+    </style>
+
+    <body>
+        
+    <div class="grid_layout_index">
+ <!-- Erstellung Navbar -->
+
+        <div class="flexbox_header">
+            <div class="titel_schrift">
+              <h1> <span class="span_titel">TCBW</span> Türnich</h1>
+          
+            </div>
+          
+          
+          
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Club_Info.html">Club-Info &dtrif;</a>
+                    <ul>
+                        <li><a href="/HTML/Unterverzeichnisse/Preise.html">Preise</a></li>
+                        <li><a href="/HTML/Unterverzeichnisse/Satzungen.html">Satzung</a></li>
+                        <li><a href="/HTML/Unterverzeichnisse/Platz und Spielordnung.html">Spielordnung</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="/HTML/Unterverzeichnisse/Training.html">Training &dtrif;</a>
+                        <ul>
+                            <li><a href="/HTML/Unterverzeichnisse/Training_jugendarbeit.html">Jugendarbeit</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/HTML/Unterverzeichnisse/">Mannschaft &dtrif;</a>
+                    <ul>
+                        <li><a href="/HTML/Unterverzeichnisse/Herren30.html">Herren 30</a></li>
+                        <li><a href="/HTML/Unterverzeichnisse/Herren401.html">Herren 40 (1)</a></li>
+                        <li><a href="/HTML/Unterverzeichnisse/Herren402.html">Herren 40 (2)</a></li>
+                        <li><a href="/HTML/Unterverzeichnisse/Herren50.html">Herren 50</a></li>
+                        <li><a href="/HTML/Unterverzeichnisse/Herren65.html">Herren 65</a></li>
+                        <li><a href="/HTML/Unterverzeichnisse/Damen30.html">Damen 30</a></li>
+                        <li><a href="/HTML/Unterverzeichnisse/Damen40.html">Damen 40</a></li>
+                        <li><a href="/HTML/Unterverzeichnisse/Damen50.html">Damen 50</a></li>
+          
+                    </ul>
+                    </li>
+                    <li><a href="/HTML/Unterverzeichnisse/TCT_open.html">TCT &dtrif;</a>
+                        <ul>
+                            <li><a href="/HTML/Unterverzeichnisse/TCTopen_ausschreibung.html">Ausschreibung</a></li>
+                            <li><a href="/HTML/Unterverzeichnisse/">Anmeldung</a></li>
+                        </ul>
+                    
+                    
+                    </li>
+          
+                </ul>
+            </nav>
+          
+          
+          
+          
+          </div>
+       
+        <!-- Erstellung Bild unter Navbar -->
+       <div class="grid_index_item">
+        <img id="Tennisball-Bild" src="/Bilder/Tennisball1.jpg">
+       </div> 
+
+
+
+        <!-- Inhalt Startseite -->
+     <div class="grid_item_index2">
+        <div class="index_flexbox_layout">
+        <div><h1 id="Überschrift-Startseite">Tennisclub Blau-Weiß Türnich 1965 e.V.</h1></div>
+
+        
+          
+            <div style="text-align: center; margin-top: 50px; margin-bottom: 50px;"><p class="text-main"><b> Sie sind</b> Anfänger, Wiedereinsteiger, Hobbyspieler, Fortgeschrittener oder ambitionierter Turnierspieler?</p>
+                <p class="text-main"><b>Sie möchten</b> einen Sport zusammen mit der ganzen Familie ausüben?</p>
+                <p class="text-main"><b>Sie suchen</b> einen einmaligen Tennisverein, in dem Sie Spielpartner m/w aller Spiel- und Altersklassen finden?</p>
+                <p class="text-main"><b>Sie mögen</b> neben dem Tennissport auch die Geselligkeit und das gemütliche Beisammensein mit aufgeweckten und aufgeschlossenen Menschen?</p></div>
+                
+            
+            <div><h2 id="h2_starseite">Dann kommen Sie in den TCT - wir freuen uns auf Sie! Wenden Sie sich direkt an unsere Mitgliedsbeauftragte.</h2>
+
+                </div>
+          
+            <div class="michi_tempel_kontakt">
+    	        <img id="Michi_Tempel" src="/Bilder/Michi_Tempel.jpg" alt="Avatar">
+                <div class="Daten">
+                    <div class="Text">
+                        <p>Michi Tempel</p>
+                        <p><a class="Info_Michi_Tempel" href="mailto:niklas.esb@outlook.com?subject=Mitgliedsbeantragung">Michi@tcbw-tuernich.de</a></p>
+                        <p>Tel.<a class="Info_Michi_Tempel" href="tel:01577 8824197">01577 8824197</a></p>
+                    </div>
+                </div>
+            </div>
+
+     </div>   
+    
+               
+           
+          
+    </div>
+       
+
+
+          
+
+        </div>
+
+        <div class="footer">
+            <div class="footer-text">
+                <div class="footer-kontakt">
+                    <div class="footer_headline">
+                        <h2 class="footer_headline_text">Kontakt</h2>
+                    </div>
+                    <div class="footer_auflistung">
+                        <ul class="footer_liste">
+                            <li>E-Mail</li>
+                            <li>Telefon</li>
+                            <li>Instagram</li>
+                            <li>Facebook</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer_richtlinien">
+                    <div class="footer_headline">
+                        <h2 class="footer_headline_text">Richtlinien</h2>
+                    </div>
+                    <div class="footer_auflistung">
+                        <ul class="footer_liste">
+                            <li><a id="link_impressum" href="/HTML/Unterverzeichnisse/Impressum.html">Impressum </a></li>
+                        </ul>
+
+                    </div>
+
+                    
+                </div>    
+            </div>    
+
+            <div class="right-section">
+                <img class ="wappen" src="/Bilder/WappenTürnich.gif">
+                <a href="https://www.stadt-kerpen.de/" target="_blank"><img class ="wappen" src="/Bilder/WappenKerpen.gif" alt="Bild"></a>
+                
+            </div>
+
+        </div>
+
+
+
+
+
+    </div>
+       
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

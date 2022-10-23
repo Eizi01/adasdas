@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/Styles/Header.css">
+<link rel="stylesheet" href="/Styles/general.css">
+<link rel="stylesheet" href="/Styles/Navbar.css">
+<link rel="stylesheet" href="/Styles/images.css">
+<link rel="stylesheet" href="/Styles/div-startseite.css">
+<link rel="stylesheet" href="/Styles/footer.css">
+<link rel="stylesheet" href="/Styles/club-info.css">
+<link rel="stylesheet" href="/Styles/impressum.css">
+<link rel="stylesheet" href="/Styles/Preise.css">
+<link rel="icon" type="image/png" href="/Bilder/Logo.jpg">
+</head>
+<style>
+.flexbox_header{
+  background-color: rgb(33,60,91);
+  height: 5rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.titel_schrift{
+  color: white;
+  font-family: Roboto, Arial;
+}
+
+.titel_schrift h1{
+ font-weight: 400;
+}
+
+.span_titel{
+  font-weight: 100;
+}
+
+
+nav ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+    text-align: center;
+}
+
+nav ul{
+  align-self: center;
+  display: inline-block ;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    padding:0px 15px 0 15px;
+    display: block;
+    font-family: Roboto, Arial;
+}
+nav ul li a:hover{
+    text-decoration: underline
+    
+}
+nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: rgb(33,60,91);
+    padding: 7px;
+    border-radius: 0px 0px 12px 12px;
+}
+
+nav ul li:hover ul{
+    display: block;
+}
+
+
+nav ul li ul li a{
+    color: white;
+    padding: 16px 20px;
+    border-radius: 10px;
+}
+nav ul li ul li a:hover{
+    background-color: rgb(63, 99, 139);
+    text-decoration: none;
+}
+
+
+</style>
+
+
+
+<body>
+
+
+    <div class="flexbox_header">
+        <div class="titel_schrift">
+          <h1> <span class="span_titel">TCBW</span> Türnich</h1>
+      
+        </div>
+      
+      
+      
+        <nav class="navbar">
+            <ul>
+                <li><a href="/HTML/index.html">Home</a></li>
+                <li><a href="/HTML/Unterverzeichnisse/Club_Info.html">Club-Info &dtrif;</a>
+                <ul>
+                    <li><a href="/HTML/Unterverzeichnisse/Preise.html">Preise</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Satzungen.html">Satzung</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Platz und Spielordnung.html">Spielordnung</a></li>
+                </ul>
+                </li>
+                <li><a href="/HTML/Unterverzeichnisse/Training.html">Training &dtrif;</a>
+                    <ul>
+                        <li><a href="/HTML/Unterverzeichnisse/Training_jugendarbeit.html">Jugendarbeit</a></li>
+                    </ul>
+                </li>
+                <li><a href="/HTML/Unterverzeichnisse/">Mannschaft &dtrif;</a>
+                <ul>
+                    <li><a href="/HTML/Unterverzeichnisse/Herren30.html">Herren 30</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Herren401.html">Herren 40 (1)</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Herren402.html">Herren 40 (2)</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Herren50.html">Herren 50</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Herren65.html">Herren 65</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Damen30.html">Damen 30</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Damen40.html">Damen 40</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Damen50.html">Damen 50</a></li>
+      
+                </ul>
+                </li>
+                <li><a href="/HTML/Unterverzeichnisse/TCT_open.html">TCT &dtrif;</a>
+                    <ul>
+                        <li><a href="/HTML/Unterverzeichnisse/TCTopen_ausschreibung.html">Ausschreibung</a></li>
+                        <li><a href="/HTML/Unterverzeichnisse/">Anmeldung</a></li>
+                    </ul>
+                
+                
+                </li>
+      
+            </ul>
+        </nav>
+      
+      
+      
+      
+      </div>
+
+
+    <div>
+        <h1 class="color_standard center_item">Tennisclub Blau-Weiß Türnich 1965 e.V.</h1>
+    </div>
+    <div>
+        <h2 class="color_standard center_item">Satzungen</h2>
+    </div>
+    <div class="out_flexbox">
+        <div class="flexbox_impressum_layout">
+            
+            <div class="flex_impressum_item"><h3 class="color_standard">§1</h3>
+                <p>Der Verein führt den Namen "Tennisclub Blau-Weiß Türnich 1965 e.V." 
+                    und hat seinen Sitz in Türnich. Er ist in das Vereinsregister des 
+                    Amtsgerichtes Kerpen eingetragen. Die Clubfarben sind Blau-Weiss. 
+                    Das Geschäftsjahr beginnt am 01.01. und endet am 31.12. des Kalenderjahres.</p></div>
+            <div class="flex_impressum_item"><h3 class="color_standard">§2</h3>
+                <p>Zweck des Vereins ist die sportliche Ausübung des Tennisspiels sowie 
+                    verwandter Sportarten unter besonderer Betonung der Ausbildung der 
+                    Jugendlichen. Er verfolgt diese Ziele ausschließlich und unmittelbar 
+                    im Sinne des Abschnitts - Steuerbegünstigte Zwecke - der Abgabenordnung. 
+                    Der Verein ist selbstlos tätig; er verfolgt nicht in erster Linie
+                    eigenwirtschaftliche Zwecke. Mittel des Vereins dürfen nur für die 
+                    satzungsmäßigen Zwecke verwendet werden. Die Mitglieder erhalten keine
+                     Zuwendungen aus Mitteln des Vereins. Es darf keine Person durch 
+                     unverhältnismäßige Vergütung begünstigt werden.</p></div>
+
+            <div class="flex_impressum_item"><h3 class="color_standard">§3</h3>
+                <p>Der Verein führt als Mitglieder:
+                    <ol>
+                        <li style="margin-bottom: 12px;">Ehrenmitglied</li>
+                        <li >ordentliche Mitglieder</li>
+                            <ol style=" list-style-type: lower-alpha;">
+                                <li >sporttreibende</li>
+                                <li style="margin-bottom: 12px;">unterstützende</li>
+                            </ol>
+                        <li style="margin-bottom: 12px;">außerordentliche Mitglieder, das sind Jugendliche unter 18 Jahren.<br>Stimmberechtigt bei Mitgliederversammlungen sind nur 1) u. 2).</li>
+                        <li> Der Verein unterhält eine eigenständige Jugendabteilung. Die Organisation der Jugendabteilung ist in der "Jugendordnung des TC Blau-Weiß Türnich 1965 e.V." festgelegt.</li>
+            
+                    </ol>
+
+
+
+
+
+                </p></div>
+            
+            
+                    <div class="flex_impressum_item"><h3 class="color_standard">§4</h3>
+                <p>Die Organe des Vereins sind: 
+                    <ol style="list-style-type: lower-alpha;">
+                        <li style="margin-bottom: 12px;">der Vorstand</li>
+                        <li >die Mitgliederversammlung</li>
+                           
+            
+                    </ol>
+                </p></div>
+            <div class="flex_impressum_item"><h3 class="color_standard">§5</h3>
+                <p>Der Antrag um Aufnahme in den Verein hat auf einem vorgeschriebenen
+                     Formular unter Anerkennung der Vereinssatzung schriftlich zu erfolgen.
+                     Der Vorstand entscheidet über die Aufnahme des Antragstellers. 
+                    Minderjährige haben ihrem Antrag die Zustimmung ihrer gesetzlichen Vertreter beizufügen..</p></div>
+            <div class="flex_impressum_item"><h3 class="color_standard">§6</h3>
+                <p>Der Austritt eines Mitglieds sowie die Umwandlung der Mitgliedschaft 
+                    von einem sporttreibenden in ein unterstützendes Mitglied kann nur zum 
+                    Schluß eines Geschäftsjahres erfolgen und ist dem Vorstand bis zum 31.07. 
+                    durch eingeschriebenen Brief oder per Mail anzuzeigen. Der Ausschluß eines 
+                    Mitgliedes erfolgt nach schriftlich begründetem Antrag eines ordentlichen
+                     Mitglieds durch Beschluß der Mitgliederversammlung. Dem Auszuschließenden 
+                     ist Gelegenheit zur Stellungnahme zu geben. 
+                    Beim Ausscheiden aus dem Club erlischt jeder Anspruch auf das Clubvermögen.</p></div>
+            <div class="flex_impressum_item"><h3 class="color_standard">§7</h3>
+                <p>Das Eintrittsgeld, die Beiträge sowie kleinere Umlagen aus besonderen Anlässen werden jeweils vom Vorstand beschlossen. 
+                    Der Vorstand ist berechtigt, in besonderen Fällen eine Ermäßigung der Beiträge eintreten zu lassen.</p></div>
+            <div class="flex_impressum_item"><h3 class="color_standard">§8</h3>
+                <p>Der Vorstand besteht aus dem
+                    <ol>
+                        <li style="margin-bottom: 12px;">Vorsitzenden</li>
+                        <li style="margin-bottom: 12px;">Vorsitzenden </li>
+                        <ol style=" list-style-type: lower-alpha;">
+                            <li style="margin-bottom: 12px;">Kassierer</li>
+                            <li style="margin-bottom: 12px;">Schriftführer</li>
+                            <li style="margin-bottom: 12px;">Sport- und Sozialwart</li>
+                        </ol>
+                        <li value="1"style="margin-bottom: 12px;">Jugendwart</li>
+                        <li value="2" style="margin-bottom: 12px;">Jugendwart</li>
+                        <li value="1" style="margin-bottom: 12px;">Beisitzer</li>
+                        <li value="2" style="margin-bottom: 12px;">Beisitzer</li>
+
+                        
+
+                    </ol>
+
+                </p></div>
+            <div class="flex_impressum_item"><h3 class="color_standard">§9</h3>
+                <p>Die Mitgliederversammlung wird durch den Vorstand einberufen. 
+                    Die ordentliche Mitgliederversammlung findet alljährlich, wenn 
+                    möglich zum Schluß des Geschäftsjahres statt. Die Einladung zu einer 
+                    Mitgliederversammlung hat spätestens eine Woche vorher schriftlich zu erfolgen.
+                    <br>
+                    <p>Die Tagesordnung soll enthalten:.</p></p>
+                
+                    <ol>
+                        <li style="margin-bottom: 12px;"> Bericht des Vorstandes</li>
+                        <li style="margin-bottom: 12px;"> Entlastung des Vorstandes</li>
+                        <li style="margin-bottom: 12px;"> Neuwahl des Vorstandes</li>
+                        <li style="margin-bottom: 12px;">  Wahl von mindestens zwei Kassenprüfern</li>
+                        <li style="margin-bottom: 12px;"> Anträge</li>
+                        <li style="margin-bottom: 12px;"> Verschiedenes</li>
+                      
+                           
+            
+                    </ol>
+                
+                    <p>Über die Versammlung hat der Schriftführer eine Niederschrift aufzunehmen, die vom Leiter der Versammlung und vom Schriftführer zu unterzeichnen ist. 
+                        Die gefassten Beschlüsse sind wörtlich in die Niederschrift aufzunehmen. 
+                        Zur Beschlussfassung ist, vorbehaltlich nachfolgender Bestimmungen des §10, 
+                        die absolute Mehrheit der erschienenen stimmberechtigten Mitglieder erforderlich.
+
+                        <p>Außerordentliche Versammlungen finden statt, wenn das Interesse des 
+                        Clubs es erfordert, oder auf schriftlich begründeten Antrag von mindestens 
+                        einem Viertel der ordentlichen Mitglieder</p></p>
+                
+                </div>
+            <div class="flex_impressum_item"><h3 class="color_standard">§10</h3>
+                <p>Satzungsänderungen können nur mit Dreiviertel-Mehrheit der anwesenden ordentlichen Mitglieder beschlossen werden. Eine Satzungsänderung ist unzulässig, soweit dadurch die Gemeinnützigkeit der Vereinszwecke beeinträchtigt würde.
+
+                    <p>Über die Auflösung des Vereins beschließt die Mitgliederversammlung
+                     mit einer Mehrheit von Dreiviertel der erschienenen stimmberechtigten 
+                     Mitglieder. Bei Auflösung oder Aufhebung des Vereins oder bei Wegfall 
+                     steuerbegünstigter Zwecke fällt das Vermögen des Vereins an die Stadt 
+                     Kerpen, die das Vermögen unmittelbar und ausschließlich für gemeinnützige 
+                     Zwecke zu verwenden hat.</p>
+                    
+                    <p>Der 1. Vorsitzende leitet die Versammlung.</p></p></div>
+            
+    
+    
+                    
+    
+    
+    
+        </div>
+    </div>
+    
+
+    <div class="footer">
+        <div class="footer-text">
+            <div class="footer-kontakt">
+                <div class="footer_headline">
+                    <h2 class="footer_headline_text">Kontakt</h2>
+                </div>
+                <div class="footer_auflistung">
+                    <ul class="footer_liste">
+                        <li><a href="mailto:info@tcbw-tuernich">E-Mail</a></li>
+                        <li><a href="tel:02237 7177">Telefon</a></li>
+                        <li><a href="https://www.youtube.com/channel/UCXNMsE-8c7zo350i6xCX9ww/featured" target="_blank">YouTube</a></li>
+                        <li><a href="https://www.facebook.com/TCBWTuernich1965/" target="_blank">Facebook</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer_richtlinien">
+                <div class="footer_headline">
+                    <h2 class="footer_headline_text">Richtlinien</h2>
+                </div>
+                <div class="footer_auflistung">
+                    <ul class="footer_liste">
+                        <li><a id="link_impressum" href="/HTML/Unterverzeichnisse/Impressum.html">Impressum </a></li>
+                    </ul>
+    
+                </div>
+    
+                
+            </div>    
+        </div>    
+                   
+    
+    
+    
+    
+    
+    
+    
+        <div class="right-section">
+            <img class ="wappen" src="/Bilder/WappenTürnich.gif">
+            <a href="https://www.stadt-kerpen.de/" target="_blank"><img class ="wappen" src="/Bilder/WappenKerpen.gif" alt="Bild"></a>
+            
+        </div>
+    
+    </div>
+
+
+
+
+    
+
+
+
+</body>
+
+
+
+
+
+
+
+
+</html>

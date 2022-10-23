@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/Styles/Header.css">
+<link rel="stylesheet" href="/Styles/general.css">
+<link rel="stylesheet" href="/Styles/Navbar.css">
+<link rel="stylesheet" href="/Styles/images.css">
+<link rel="stylesheet" href="/Styles/div-startseite.css">
+<link rel="stylesheet" href="/Styles/footer.css">
+<link rel="stylesheet" href="/Styles/club-info.css">
+<link rel="stylesheet" href="/Styles/impressum.css">
+<link rel="icon" type="image/png" href="/Bilder/Logo.jpg">
+</head>
+<style>
+.flexbox_header{
+  background-color: rgb(33,60,91);
+  height: 5rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.titel_schrift{
+  color: white;
+  font-family: Roboto, Arial;
+}
+
+.titel_schrift h1{
+ font-weight: 400;
+}
+
+.span_titel{
+  font-weight: 100;
+}
+
+
+nav ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+    text-align: center;
+}
+
+nav ul{
+  align-self: center;
+  display: inline-block ;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    padding:0px 15px 0 15px;
+    display: block;
+    font-family: Roboto, Arial;
+}
+nav ul li a:hover{
+    text-decoration: underline
+    
+}
+nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: rgb(33,60,91);
+    padding: 7px;
+    border-radius: 0px 0px 12px 12px;
+}
+
+nav ul li:hover ul{
+    display: block;
+}
+
+
+nav ul li ul li a{
+    color: white;
+    padding: 16px 20px;
+    border-radius: 10px;
+}
+nav ul li ul li a:hover{
+    background-color: rgb(63, 99, 139);
+    text-decoration: none;
+}
+
+body {
+    padding-top: 100px;
+}
+</style>
+
+
+
+<body>
+    <div class="flexbox_header">
+        <div class="titel_schrift">
+          <h1> <span class="span_titel">TCBW</span> Türnich</h1>
+      
+        </div>
+      
+      
+      
+        <nav class="navbar">
+            <ul>
+                <li><a href="/HTML/index.html">Home</a></li>
+                <li><a href="/HTML/Unterverzeichnisse/Club_Info.html">Club-Info &dtrif;</a>
+                <ul>
+                    <li><a href="/HTML/Unterverzeichnisse/Preise.html">Preise</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Satzungen.html">Satzung</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Platz und Spielordnung.html">Spielordnung</a></li>
+                </ul>
+                </li>
+                <li><a href="/HTML/Unterverzeichnisse/Training.html">Training &dtrif;</a>
+                    <ul>
+                        <li><a href="/HTML/Unterverzeichnisse/Training_jugendarbeit.html">Jugendarbeit</a></li>
+                    </ul>
+                </li>
+                <li><a href="/HTML/Unterverzeichnisse/">Mannschaft &dtrif;</a>
+                <ul>
+                    <li><a href="/HTML/Unterverzeichnisse/Herren30.html">Herren 30</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Herren401.html">Herren 40 (1)</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Herren402.html">Herren 40 (2)</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Herren50.html">Herren 50</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Herren65.html">Herren 65</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Damen30.html">Damen 30</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Damen40.html">Damen 40</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Damen50.html">Damen 50</a></li>
+      
+                </ul>
+                </li>
+                <li><a href="/HTML/Unterverzeichnisse/TCT_open.html">TCT &dtrif;</a>
+                    <ul>
+                        <li><a href="/HTML/Unterverzeichnisse/TCTopen_ausschreibung.html">Ausschreibung</a></li>
+                        <li><a href="/HTML/Unterverzeichnisse/">Anmeldung</a></li>
+                    </ul>
+                
+                
+                </li>
+      
+            </ul>
+        </nav>
+      
+      
+      
+      
+      </div>
+
+<div>
+    <h1 class="color_standard center_item">Tennisclub Blau-Weiß Türnich 1965 e.V.</h1>
+</div>
+<div>
+    <h2 class="color_standard center_item">Impressum</h2>
+</div>
+<div class="out_flexbox">
+    <div class="flexbox_impressum_layout">
+        <div class="flex_impressum_item"><h3 class="color_standard">Disclaimer:</h3></div>
+        <div class="flex_impressum_item"><h2 class="color_standard">Haftung für Inhalte</h2>
+            <p>Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. 
+            Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte 
+            können wir jedoch keine Gewähr übernehmen. 
+            Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für 
+            eigene Inhalte auf diesen Seiten nach den allgemeinen 
+            Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als 
+            Diensteanbieter jedoch nicht verpflichtet, übermittelte oder 
+            gespeicherte fremde Informationen zu überwachen oder nach Umständen 
+            zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. 
+            Verpflichtungen zur Entfernung oder Sperrung der Nutzung von 
+            Informationen nach den allgemeinen Gesetzen bleiben hiervon 
+            unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem 
+            Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. 
+            Bei bekannt werden von entsprechenden Rechtsverletzungen werden
+            wir diese Inhalte umgehend entfernen.</p></div>
+        <div class="flex_impressum_item"><h2 class="color_standard">Haftung für Links</h2>
+            <p>Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir 
+            einen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr 
+            übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder 
+            Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung 
+            auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung 
+            nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete 
+            Anhaltspunkte einer Rechtsverletzung nicht zumutbar. 
+            Bei bekannt werden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.</p></div>
+        <div class="flex_impressum_item"><h2 class="color_standard">Urheberrecht</h2>
+            <p>Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen 
+            Seiten unterliegen dem deutschen Urheberrecht. Beiträge Dritter sind als 
+            solche gekennzeichnet. Die Vervielfältigung, Bearbeitung, Verbreitung und 
+            jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen 
+            der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads 
+            und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch 
+            gestattet. Die Betreiber der Seiten sind bemüht, stets die Urheberrechte anderer 
+            zu beachten bzw. auf selbst erstellte sowie lizenzfreie Werke zurückzugreifen.</p></div>
+        <div class="flex_impressum_item"><h2 class="color_standard">Datenschutz</h2>
+            <p>Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder E-Mail-Adressen) 
+            erhoben werden, erfolgt dies soweit möglich stets auf freiwilliger Basis. Die Nutzung der Angebote und 
+            Dienste ist, soweit möglich, stets ohne Angabe personenbezogener Daten möglich. Wir weisen darauf hin, 
+            dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen 
+            kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich. 
+            Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte 
+            zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird 
+            hiermit ausdrücklich widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte 
+            im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor.</p></div>
+        <div class="flex_impressum_item"><p>Quelle: eRecht24.de - Rechtsberatung von Anwalt Sören Siebert</p></div>
+
+
+
+
+
+
+    </div>
+</div>
+
+
+
+<div class="footer">
+    <div class="footer-text">
+        <div class="footer-kontakt">
+            <div class="footer_headline">
+                <h2 class="footer_headline_text">Kontakt</h2>
+            </div>
+            <div class="footer_auflistung">
+                <ul class="footer_liste">
+                    <li>E-Mail</li>
+                    <li>Telefon</li>
+                    <li>Instagram</li>
+                    <li>Facebook</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer_richtlinien">
+            <div class="footer_headline">
+                <h2 class="footer_headline_text">Richtlinien</h2>
+            </div>
+            <div class="footer_auflistung">
+                <ul class="footer_liste">
+                    <li><a id="link_impressum" href="/HTML/Unterverzeichnisse/Impressum.html">Impressum </a></li>
+                </ul>
+
+            </div>
+
+            
+        </div>    
+    </div>
+
+    <div class="right-section">
+        <img class ="wappen" src="/Bilder/WappenTürnich.gif">
+        <a href="https://www.stadt-kerpen.de/" target="_blank"><img class ="wappen" src="/Bilder/WappenKerpen.gif" alt="Bild"></a>
+        
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,63 @@
+.grid_container{
+    display: grid;
+    grid-template-rows: 33%;
+    grid-template-columns: 33%;
+    row-gap: 40px;
+    margin-top: 100px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.grid_item-1{
+   justify-self: center;
+   align-self: center;
+}
+
+.grid_element{
+    font-family: Roboto, Arial;
+}
+
+
+
+.grid_container2{
+margin-top: 100px;
+
+
+}
+
+div.polaroid_container{
+    text-align: center;
+
+}
+
+div.polaroid{
+    width: 400px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+
+.polaroid1{
+    width: 350px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+
+
+.grid_container2{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    gap: 30px;
+    align-content: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.Überschrift_Grid1{
+    grid-column: 1 /3;
+    align-self: center;
+    justify-self: center;
+}

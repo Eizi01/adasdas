@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/Styles/Header.css">
+<link rel="stylesheet" href="/Styles/general.css">
+<link rel="stylesheet" href="/Styles/Navbar.css">
+<link rel="stylesheet" href="/Styles/images.css">
+<link rel="stylesheet" href="/Styles/div-startseite.css">
+<link rel="stylesheet" href="/Styles/footer.css">
+<link rel="stylesheet" href="/Styles/club-info.css">
+<link rel="stylesheet" href="/Styles/impressum.css">
+<link rel="stylesheet" href="/Styles/Preise.css">
+<link rel="icon" type="image/png" href="/Bilder/Logo.jpg">
+</head>
+<style>
+.flexbox_header{
+  background-color: rgb(33,60,91);
+  height: 5rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.titel_schrift{
+  color: white;
+  font-family: Roboto, Arial;
+}
+
+.titel_schrift h1{
+ font-weight: 400;
+}
+
+.span_titel{
+  font-weight: 100;
+}
+
+
+nav ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+    text-align: center;
+}
+
+nav ul{
+  align-self: center;
+  display: inline-block ;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    padding:0px 15px 0 15px;
+    display: block;
+    font-family: Roboto, Arial;
+}
+nav ul li a:hover{
+    text-decoration: underline
+    
+}
+nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: rgb(33,60,91);
+    padding: 7px;
+    border-radius: 0px 0px 12px 12px;
+}
+
+nav ul li:hover ul{
+    display: block;
+}
+
+
+nav ul li ul li a{
+    color: white;
+    padding: 16px 20px;
+    border-radius: 10px;
+}
+nav ul li ul li a:hover{
+    background-color: rgb(63, 99, 139);
+    text-decoration: none;
+}
+</style>
+
+
+
+<body>
+    <div class="flexbox_header">
+        <div class="titel_schrift">
+          <h1> <span class="span_titel">TCBW</span> Türnich</h1>
+      
+        </div>
+      
+      
+      
+        <nav class="navbar">
+            <ul>
+                <li><a href="/HTML/index.html">Home</a></li>
+                <li><a href="/HTML/Unterverzeichnisse/Club_Info.html">Club-Info &dtrif;</a>
+                <ul>
+                    <li><a href="/HTML/Unterverzeichnisse/Preise.html">Preise</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Satzungen.html">Satzung</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Platz und Spielordnung.html">Spielordnung</a></li>
+                </ul>
+                </li>
+                <li><a href="/HTML/Unterverzeichnisse/Training.html">Training &dtrif;</a>
+                    <ul>
+                        <li><a href="/HTML/Unterverzeichnisse/Training_jugendarbeit.html">Jugendarbeit</a></li>
+                    </ul>
+                </li>
+                <li><a href="/HTML/Unterverzeichnisse/">Mannschaft &dtrif;</a>
+                <ul>
+                    <li><a href="/HTML/Unterverzeichnisse/Herren30.html">Herren 30</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Herren401.html">Herren 40 (1)</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Herren402.html">Herren 40 (2)</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Herren50.html">Herren 50</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Herren65.html">Herren 65</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Damen30.html">Damen 30</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Damen40.html">Damen 40</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Damen50.html">Damen 50</a></li>
+      
+                </ul>
+                </li>
+                <li><a href="/HTML/Unterverzeichnisse/TCT_open.html">TCT &dtrif;</a>
+                    <ul>
+                        <li><a href="/HTML/Unterverzeichnisse/TCTopen_ausschreibung.html">Ausschreibung</a></li>
+                        <li><a href="/HTML/Unterverzeichnisse/">Anmeldung</a></li>
+                    </ul>
+                
+                
+                </li>
+      
+            </ul>
+        </nav>
+      
+      
+      
+      
+      </div>
+
+
+    <div>
+        <h1 class="color_standard center_item">Tennisclub Blau-Weiß Türnich 1965 e.V.</h1>
+    </div>
+    <div>
+        <h2 class="color_standard center_item">Platz- und Spielordnung</h2>
+    </div>
+    <div class="out_flexbox">
+        <div class="flexbox_impressum_layout">
+            <p>Der Tennisclub Blau-Weiß Türnich 1965 e.V. hat in wenigen Jahren eine anspruchsvolle 
+                Sportanlage erstellt, die seinen Mitgliedern Stätte der Erholung und Entspannung sein soll.
+                Diese Anlage durch Pflege zu erhalten, ist unser Anliegen. Es ist Ihr Heim und Ihre Anlage. 
+                Behandeln Sie die Einrichtungen sorgfältig und so, wie Sie Ihr Eigentum zu behandeln pflegen.
+                 Die Grundsätze der Höflichkeit und des Anstandes sollten bestimmend sein für den Umgang der
+                  Mitglieder untereinander. Bitte beachten Sie regelmäßig das sog. "Schwarze Brett bzw. unsere
+                   Internet-Plattform", auf dem wir Sie mit unseren aktuellen Problemen und Mitteilungen vertraut
+                    machen.
+                 Die nachstehenden Hinweise sollten die grundsätzliche Ordnung darstellen.</p>
+            <div class="flex_impressum_item"><h3 class="color_standard">1. Clubheim</h3>
+                <p>Das Betreten der Tennisanlage, von Tennisplatz, Clubhaus und Schwimmbecken 
+                    ist nur Mitgliedern und deren Gästen gestattet.</p>
+                    
+                    <p>Benutzen Sie für Abfälle und Zigarettenreste im Heim, auf der Terrasse
+                     und an den Tennisplätzen die vorhandenen Aschenbecher und Abfalleimer.</p>
+                    
+                    <p>Halten Sie den Boden des Heimes, der Terrassen- und Rasenfläche von G
+                    egenständen und Scherben frei, damit Fußverletzungen vermieden werden.</p>
+                    
+                    <p>Lassen Sie bitte kein Geld und keine Wertsachen in den Garderoben zurück.
+                     Der Tennisclub übernimmt dafür keine Haftung.</p>
+                    
+                    <p>Wir weisen ausdrücklich darauf hin, dass Hunde auf der gesamten Tennisanlage einschließlich des Clubheims gemäß Mitgliederbeschluss 
+                    (zuletzt auf der Jahreshauptversammlung von Januar 2014) nicht gestattet sind.</p></div>
+            <div class="flex_impressum_item"><h3 class="color_standard">2. Platz-  und Spielordnung</h3>
+                
+                <ol style="list-style-type: upper-roman;">
+                    <li style="margin-bottom: 12px;"><p>Kleidung</p>
+                        <p>Die Benutzung der Tennisplätze ist nur mit 
+                            Tennisschuhen erlaubt. Es darf nur in ordnungsmäßiger 
+                            Kleidung gespielt werden.</p>
+                    </li>
+                    <li style="margin-bottom: 12px;"><p>Platzeinteilung</p>
+                        <p>Der Platz 7 ist ausschließlich den Jugendlichen (bis zum vollendeten 17. Lebensjahr) 
+                            vorbehalten (siehe auch Jugendordnung).
+                            Alle anderen Plätze stehen den Erwachsenen zur Verfügung.</p>
+                    </li>
+                    <li style="margin-bottom: 12px;"><p>Spieldauer</p>
+                        <p>Die Spieldauer ist für alle Plätze bei Einzel und Doppel
+                             auf höchstens 60 Minuten festgelegt. Eingeschlossen ist 
+                             die Zeit für die erforderliche Platzpflege. Der Wechsel hat 
+                             ohne Aufforderung zu erfolgen. Erst wenn alle Spieler gespielt haben,
+                             besteht Anspruch auf eine erneute Platzbelegung. Bitte nehmen Sie bei 
+                             starkem Andrang Rücksicht auf die wartenden Mitglieder und verzichten 
+                             Sie auf die Austragung von Einzelspielen. Ist der Andrang außergewöhnlich stark, 
+                            kann die Spieldauer vom Sportwart wieder gekürzt werden.</p>
+                    </li>
+                    <li style="margin-bottom: 12px;"><p>Turniere</p>
+                        <p>Wird ein vom Club / Verband offiziell angesetztes Turnier 
+                            durchgeführt, so hat dieses Vorrang vor den Privatspielen.
+                             Zur schnelleren Abwicklung der Turniere werden zu Beginn ggf. 
+                             alle Plätze belegt, so dass nach den ersten Einzelspielen für 
+                             die Doppel nur noch drei Plätze benötigt werden. Angesetzte 
+                             Turniere werden rechtzeitig bekannt gegeben 
+                            (Aushang am Schwarzen Brett bzw. Informationen auf der Homepage).</p>
+                    </li>
+                    <li style="margin-bottom: 12px;"><p>Platzpflege</p>
+                        <p>Alle Mitglieder sind verpflichtet, die Platzanlage in 
+                            sauberem und bespielbarem Zustand zu halten. Die Hinweise 
+                            des Sportwartes bzw. aller Vorstandsmitglieder sind hierbei
+                             unbedingt zu befolgen. Platzsperrungen durch den Platzwart sind 
+                             zu befolgen. Am Ende ihres Spiels müssen die Spieler den anschließend 
+                             spielenden Mitgliedern den Platz so wieder zur Verfügung stellen, wie sie 
+                             ihn selbst anzutreffen wünschen. Dazu gehört das Egalisieren der Spielfläche 
+                             mit dem Holzschaber, das Abziehen mit dem Nivelliernetz, das Säubern der
+                              Spielfeldmarkierungen mit dem Besen, falls erforderlich das Wässern und u. U. 
+                              sogar das Walzen des Platzes. Auf trockenen, staubenden Plätzen darf grundsätzlich
+                              nicht gespielt werden. Hier müssen die Spieler vor dem Spiel
+                             und ggf. auch während des Spiels den Platz noch einmal wässern.</p>
+                    </li>
+                    <li style="margin-bottom: 12px;"><p>Gastspieler</p>
+                        <p>Gastspieler können nur von Mitgliedern eingeführt werden. Das Mitglied,
+                             welches den Gast mitbringt, ist verpflichtet, ihn beim Sportwart bzw. 
+                             der das Gastschild ausgebenden Gastronomie anzumelden und vorzustellen.
+                             Am Vormittag ist die Eintragung des Gastes sowie des mit ihm spielenden
+                              Mitglieds in das Gästebuch vorzunehmen. Das Mitglied hat ein Gastgeld in
+                               Höhe von 12,00 Euro (Erwachsene) bzw. 3,00 Euro (Kinder und Jugendliche) 
+                               zu zahlen. Der Gastspieler hat nur dann ein Recht, auf der Platzanlage zu spielen,
+                             wenn die Inanspruchnahme durch Clubmitglieder dies zulässt.</p>
+                    </li>
+                    <li style="margin-bottom: 12px;"><p>Lärmvermeidung</p>
+                        <p>Im Interesse des Spielbetriebs ist Lärm sowohl von den Spielern als auch von den übrigen Besuchern der Anlage zu vermeiden.</p>
+                    </li>
+                    <li style="margin-bottom: 12px;"><p>Beaufsichtigung der Kinder</p>
+                        <p>Die Eltern werden gebeten, die Aufsicht über ihre Kinder auszuüben. 
+                            Kleinkinder sind wegen der Verletzungsgefahr von den Plätzen fernzuhalten.
+                             Der Tennisclub übernimmt bei Unfällen keine Haftung. Wachen Sie mit darüber, 
+                             dass Kinder den Maschendraht der Ballfanggitter nicht als Steigleiter benutzen.
+                              Auch die Benutzung von Spielgeräten sollte von den Erwachsenen überwacht werden.
+                               Für die Benutzung oder den Aufenthalt 
+                            im Schwimmbecken gelten die besonderen Bestimmungen.</p>
+                    </li>
+                    <li style="margin-bottom: 12px;"><p> Aufsicht und Anweisungen</p>
+                        <p>Die Aufsicht auf dem Tennisplatz obliegt Sportwart(in), Jugendwart(in) und 1. Beisitzer(in). 
+                            Ihren Anweisungen muss entsprochen werden. Bei Abwesenheit dieser Personen fühlen sich die 
+                            übrigen Mitglieder des Vorstandes
+                            erantwortlich. Auch den Anweisungen des Platzwartes ist Folge zu leisten.</p>
+                    </li>
+                    <li style="margin-bottom: 12px;"><p>Sonstiges</p>
+                        <p>Handreichungen bei der Instandhaltung der gesamten Anlage von allen Mitgliedern
+                             sollte nicht die Ausnahme, sondern die Regel sein. Sie tragen dazu bei, nicht nur die Anlage,
+                            sondern auch das Clubleben miteinander in Ordnung zu halten.</p>
+                    </li>
+
+
+
+
+
+                </ol>
+            
+            
+            
+            
+            
+            
+            
+            </div>
+            <div class="flex_impressum_item"><h3 class="color_standard">3. Schwimmbecken</h3>
+                <p>Das Schwimmbecken bedarf besonderer Pflege und Behandlung, um unseren Mitgliedern 
+                    für längere Zeit Freude und Kühlung zu bereiten.</p>
+                    
+                    <p>Benutzen Sie für Abfälle und Zigarettenreste im Heim, auf der Terrasse
+                     und an den Tennisplätzen die vorhandenen Aschenbecher und Abfalleimer.</p>
+                    
+                    <p>Jede Form von Verunreinigung u.a. durch Steine, Sand und Spielgeräte ist zu vermeiden. 
+                        Wir bitten die Eltern, ihre Kinder entsprechend zu belehren. Bei der 
+                        relativ geringen Wassermenge und der geringen Wassertiefe ist sauberes
+                         Wasser erste Voraussetzung für ein erfrischendes Bad. Die Freihaltung 
+                         des Bodens von Steinen und anderen Tauchobjekten hilft, Verletzungen zu 
+                         vermeiden.
+
+                        Um ein unnötiges Verschmutzen des Wassers zu vermeiden, hat der Zugang zum Becken nur nach vorherigem Abduschen über die Beckenleiter zu erfolgen. In jedem Fall ist vor Benutzung des Pools eine Reinigungsdusche zu nehmen.</p>
+                    
+                    <p>Der Aufenthalt von Kleinkindern im Becken und in Beckennähe muss von mindestens einem Erwachsenen überwacht werden.</p>
+                    
+                    <p>Sprünge ins Becken sind zu vermeiden.
+
+                        Der Vorstand behält sich vor, während Turnier- und Meisterschaftsspielen den Pool für den Badebetrieb zu sperren, wenn dadurch der sportliche Ablauf der Spiele nicht mehr gewährleistet ist.</p></div>
+                        
+                        <p> Der Vorstand</p>
+        </div>
+    </div>
+    
+
+
+    <div class="footer">
+        <div class="footer-text">
+            <div class="footer-kontakt">
+                <div class="footer_headline">
+                    <h2 class="footer_headline_text">Kontakt</h2>
+                </div>
+                <div class="footer_auflistung">
+                    <ul class="footer_liste">
+                        <li><a href="mailto:info@tcbw-tuernich">E-Mail</a></li>
+                        <li><a href="tel:02237 7177">Telefon</a></li>
+                        <li><a href="https://www.youtube.com/channel/UCXNMsE-8c7zo350i6xCX9ww/featured" target="_blank">YouTube</a></li>
+                        <li><a href="https://www.facebook.com/TCBWTuernich1965/" target="_blank">Facebook</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer_richtlinien">
+                <div class="footer_headline">
+                    <h2 class="footer_headline_text">Richtlinien</h2>
+                </div>
+                <div class="footer_auflistung">
+                    <ul class="footer_liste">
+                        <li><a id="link_impressum" href="/HTML/Unterverzeichnisse/Impressum.html">Impressum </a></li>
+                    </ul>
+    
+                </div>
+    
+                
+            </div>    
+        </div>    
+                   
+    
+    
+    
+    
+    
+    
+    
+        <div class="right-section">
+            <img class ="wappen" src="/Bilder/WappenTürnich.gif">
+            <a href="https://www.stadt-kerpen.de/" target="_blank"><img class ="wappen" src="/Bilder/WappenKerpen.gif" alt="Bild"></a>
+            
+        </div>
+    
+    </div>
+
+
+
+    
+
+
+
+</body>
+
+
+
+
+
+
+
+
+</html>

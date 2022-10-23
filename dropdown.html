@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+
+    <title>Dropdown Menü</title>
+</head>
+<style>
+
+nav {
+    width: 100%;
+    height: 85px;
+    background-color: white;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.11);
+}
+
+nav ul{
+    float: right; 
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a{
+    color: #272727;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 28px;
+    display: block;
+}
+
+nav ul li a:hover{
+    background-color: #ebebeb;;
+}
+
+nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: #338585;
+    padding: 7px;
+    border-radius: 0px 0px 12px 12px;
+}
+
+nav ul li:hover ul{
+    display: block;
+}
+
+
+nav ul li ul li a{
+    color: white;
+    padding: 16px 20px;
+    border-radius: 10px;
+}
+nav ul li ul li a:hover{
+    background-color: #296b6b;
+}
+</style>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Club-Info</a>
+            <ul>
+                <li><a href="#">Preise</a></li>
+                <li><a href="#">Satzung</a></li>
+                <li><a href="#">Spielordnung</a></li>
+            </ul>
+            </li>
+            <li><a href="#">Training</a>
+                <ul>
+                    <li><a href="#">Jugendarbeit</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Mannschaft</a>
+            <ul>
+                <li><a href="#">Herren 30</a></li>
+                <li><a href="#">Herren 40</a></li>
+                <li><a href="#">Damen</a></li>
+
+            </ul>
+            </li>
+            <li><a href="#">TCT</a>
+                <ul>
+                    <li><a href="#">Ausschreibung</a></li>
+                    <li><a href="#">Anmeldung</a></li>
+                </ul>
+            
+            
+            </li>
+
+        </ul>
+    </nav>
+</body>
+</html>

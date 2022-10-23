@@ -1,0 +1,117 @@
+details {
+    border: 1px solid rgb(33,60,91);
+    border-radius: 4px;
+    padding: .5em .5em 0;
+    margin-bottom: 5px;
+    color: rgb(33,60,91);
+    font-family: Roboto, Arial;
+    width: 1000px;
+}
+
+summary {
+    font-weight: bold;
+    margin: -.5em -.5em 0;
+    padding: .5em;
+    text-align: left;
+}
+
+details[open] {
+    padding: .5em;
+}
+
+details[open] summary {
+    
+    margin-bottom: .5em;
+}
+
+
+body{
+    padding-top: 200px;
+    
+}
+
+.Preistabelle{
+   border-spacing: 15px 20px;
+   border: thin solid;
+   margin: 60px 50px 60px 50px;
+   table-layout: fixed;
+   max-width: 1500px;
+   empty-cells: hide;
+   color:  rgb(33,60,91);
+   font-family: Roboto, Arial;
+
+}
+
+
+.Preistabelle_zeile{
+   text-align: center;
+
+  
+}
+
+
+#Stand{
+    font-size: 13px;
+}
+
+.flexbox_layout_preise{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    max-width: 1000px;
+}
+
+td, th{
+    border-bottom: thin solid;
+    border-color:  rgb(33,60,91);;
+}
+
+.Preistabelle_item_button{
+    border: none;
+    padding-top: 25px;
+    color: aqua;
+}
+
+#Preistabelle_button{
+    background-color:rgb(33,60,91); 
+    color: white;
+    border: solid;
+    border-radius: 10px;
+    padding: 8px 20px 8px 20px;
+    border-color:rgb(33,60,91) ;
+    font-family: Roboto, Arial;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#Preistabelle_button::after{
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: 7px;
+    right: -20px;
+    transition: 0.5s;
+}
+
+#Preistabelle_button:hover{
+
+        padding-right: 24px;
+        padding-left:8px;
+      
+}
+#Preistabelle_button:hover:after{
+    opacity: 1;
+    right: 10px;
+}
+
+#Preistablle_Link_Aufnahmeantrag{
+    text-decoration: none;
+    color:white ; 
+}

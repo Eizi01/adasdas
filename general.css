@@ -1,0 +1,35 @@
+
+
+
+
+
+body{
+    margin: 0;
+    
+    padding-top: 50px;    /*Padding Top, damit Navabr mit fixed nichts überdeckt. */
+    position: relative;
+}
+
+h1{
+    margin:0;
+    font-family: Roboto, Arial;
+    
+}
+
+
+p{
+    font-family: Roboto, Arial;
+}
+
+
+.Info_Michi_Tempel{
+    color: white;
+    font-family: Roboto, Arial;
+    display: inline-block;
+    
+}
+
+
+.Info_Michi_Tempel:active{
+    cursor: progress;
+}

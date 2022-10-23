@@ -1,0 +1,20 @@
+.color_standard{
+    color: rgb(33,60,91);
+    font-family: Roboto, Arial;
+}
+
+
+.flexbox_impressum_layout{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+.out_flexbox{
+    display: flex;
+    justify-content: center;
+}
+
+.center_item{
+    text-align: center;
+}

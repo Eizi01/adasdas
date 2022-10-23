@@ -1,0 +1,65 @@
+.index_flexbox_layout{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.text-main{
+    color:rgb(33,60,91);
+    font-size: 22px;
+}
+
+
+.michi_tempel_kontakt:hover #Michi_Tempel{
+    opacity: 0.3;
+}
+
+
+.Daten{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    border-radius: 2px;
+}
+
+.michi_tempel_kontakt:hover .Daten{
+    opacity: 1;
+}
+
+.michi_tempel_kontakt{
+    position: relative;
+   
+}
+
+.Text{
+    Color: white; 
+    background-color:rgb(33,60,91); 
+    text-align: center;
+    padding: 5px;
+    font-size: 12px;
+    border: solid; 
+    border-color:rgb(33,60,91); 
+    border-radius: 25% 10%;
+}
+
+
+#h2_starseite{
+    font-family: Roboto, Arial;
+}
+
+
+#Überschrift-Startseite{
+    text-align: center;
+    font-size: 70px;
+    margin-top: 80px;
+}
+
+.fir-section{
+    margin-top: 50px;
+}
+
+

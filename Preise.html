@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/Styles/Header.css">
+<link rel="stylesheet" href="/Styles/general.css">
+<link rel="stylesheet" href="/Styles/Navbar.css">
+<link rel="stylesheet" href="/Styles/images.css">
+<link rel="stylesheet" href="/Styles/div-startseite.css">
+<link rel="stylesheet" href="/Styles/footer.css">
+<link rel="stylesheet" href="/Styles/club-info.css">
+<link rel="stylesheet" href="/Styles/impressum.css">
+<link rel="stylesheet" href="/Styles/Preise.css">
+<link rel="icon" type="image/png" href="/Bilder/Logo.jpg">
+</head>
+<style>
+
+    
+.flexbox_header{
+  background-color: rgb(33,60,91);
+  height: 5rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.titel_schrift{
+  color: white;
+  font-family: Roboto, Arial;
+}
+
+.titel_schrift h1{
+ font-weight: 400;
+}
+
+.span_titel{
+  font-weight: 100;
+}
+
+
+nav ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+    text-align: center;
+}
+
+nav ul{
+  align-self: center;
+  display: inline-block ;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    padding:0px 15px 0 15px;
+    display: block;
+    font-family: Roboto, Arial;
+}
+nav ul li a:hover{
+    text-decoration: underline
+    
+}
+nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: rgb(33,60,91);
+    padding: 7px;
+    border-radius: 0px 0px 12px 12px;
+}
+
+nav ul li:hover ul{
+    display: block;
+}
+
+
+nav ul li ul li a{
+    color: white;
+    padding: 16px 20px;
+    border-radius: 10px;
+}
+nav ul li ul li a:hover{
+    background-color: rgb(63, 99, 139);
+    text-decoration: none;
+}
+</style>
+
+
+
+<body>
+
+
+    <div class="flexbox_header">
+        <div class="titel_schrift">
+          <h1> <span class="span_titel">TCBW</span> Türnich</h1>
+      
+        </div>
+      
+      
+      
+        <nav class="navbar">
+            <ul>
+                <li><a href="/HTML/index.html">Home</a></li>
+                <li><a href="/HTML/Unterverzeichnisse/Club_Info.html">Club-Info &dtrif;</a>
+                <ul>
+                    <li><a href="/HTML/Unterverzeichnisse/Preise.html">Preise</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Satzungen.html">Satzung</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Platz und Spielordnung.html">Spielordnung</a></li>
+                </ul>
+                </li>
+                <li><a href="/HTML/Unterverzeichnisse/Training.html">Training &dtrif;</a>
+                    <ul>
+                        <li><a href="/HTML/Unterverzeichnisse/Training_jugendarbeit.html">Jugendarbeit</a></li>
+                    </ul>
+                </li>
+                <li><a href="/HTML/Unterverzeichnisse/">Mannschaft &dtrif;</a>
+                <ul>
+                    <li><a href="/HTML/Unterverzeichnisse/Herren30.html">Herren 30</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Herren401.html">Herren 40 (1)</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Herren402.html">Herren 40 (2)</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Herren50.html">Herren 50</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Herren65.html">Herren 65</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Damen30.html">Damen 30</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Damen40.html">Damen 40</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Damen50.html">Damen 50</a></li>
+      
+                </ul>
+                </li>
+                <li><a href="/HTML/Unterverzeichnisse/TCT_open.html">TCT &dtrif;</a>
+                    <ul>
+                        <li><a href="/HTML/Unterverzeichnisse/TCTopen_ausschreibung.html">Ausschreibung</a></li>
+                        <li><a href="/HTML/Unterverzeichnisse/">Anmeldung</a></li>
+                    </ul>
+                
+                
+                </li>
+      
+            </ul>
+        </nav>
+      
+      
+      
+      
+      </div>
+
+<div class="out_flexbox"><div class="flexbox_layout_preise">
+        <div><h1>Tennisclub Blau-Weiß Türnich 1965 e.V.</h1></div>
+        <div><h3 style="font-family: Roboto, Arial;">Finanzielle Bedingungen für die Aufnahme und Mitgliedschaft 
+            <span id="Stand">(Stand: 01. Februar 2016)</span></h3>
+        </div>
+
+        <div class="Preise_einleitung">
+            <p>Die Beitragszahlungen sind seit 2013 auch in Teilbeiträgen halb- oder 
+                vierteljährlich möglich. Bitte haben Sie Verständnis, 
+                dass bei Inanspruchnahme einer Ratenzahlung je zusätzlicher 
+                Buchung und zahlendem Mitglied eine Verwaltungspauschale 
+                von € 1,00 berechnet wird. Beitragsbefreite 
+                Mitglieder gemäß 2.5 sind hiervon ausgeschlossen.</p>
+        </div>
+
+
+
+
+
+
+        <table class="Preistabelle">
+            
+            <tr class="Preistabelle_zeile Preistabelle_zeile1">
+                <th class="Kopfzeile"></th>
+                <th class="Kopfzeile">vierteljährlich</th>
+                <th class="Kopfzeile">halbjährlich</th>
+                <th class="Kopfzeile">jährlich</th>
+            </tr> 
+
+            <tr class="Preistabelle_zeile">
+                <tr class="Preistabelle_zeile">
+                <th scope="row">Erwachsene</th>
+                <td class="Preistabelle_item">64,00 &#8364;</td>
+                <td class="Preistabelle_item">127,00 &#8364;</td>
+                <td class="Preistabelle_item">252,00 &#8364;</td>
+            </tr>
+            <tr class="Preistabelle_zeile">
+                <th scope="row">Ehe-/Lebenspartner</th>
+                <td class="Preistabelle_item">59,50 &#8364;</td>
+                <td class="Preistabelle_item">118,00 &#8364;</td>
+                <td class="Preistabelle_item">234,00 &#8364;</td>
+            </tr>
+            <tr class="Preistabelle_zeile">
+                <th scope="row">Auszubildene, Schüler, Studenten</th>
+                <td class="Preistabelle_item">23,00 &#8364;</td>
+                <td class="Preistabelle_item">46,00 &#8364;</td>
+                <td class="Preistabelle_item">90,00 &#8364;</td>
+            </tr>
+            <tr class="Preistabelle_zeile">
+                <th scope="row">Kinder und Jugendliche bis 18 Jahre</th>
+                <td class="Preistabelle_item">16,00 &#8364;</td>
+                <td class="Preistabelle_item">31,00 &#8364;</td>
+                <td class="Preistabelle_item">60,00 &#8364;</td>
+            </tr> 
+            <tr class="Preistabelle_zeile">
+                <td class="Preistabelle_item_button"></td>
+                <td class="Preistabelle_item_button"><button id="Preistabelle_button"><a id="Preistablle_Link_Aufnahmeantrag" href="/Datei/AufnahmeantragTCT.pdf"  target="_blank">Aufnahmeantrag</a></button></td>
+            </tr>
+
+       
+    </table>
+    
+    <div >
+        <p><h3 style="font-family: Roboto, Arial; color:rgb(33,60,91);;"><u>Weitere Informationen</u></h3></p>
+    </div>
+
+    <div class="Preise_Textblock">
+        <div class="Preise_Textblock_flexbox">
+            <details>
+                <summary>befristete Mitgliedschaft (Schnuppermitgliedschaft)</summary>
+                <p>Auf Anfrage umsetzbar.</p>
+            </details>
+            <details>
+                <summary>freiwilliger Wehrdienst, freiwilliges soziales Jahr</summary>
+                <p>Auf Anfrage umsetzbar.</p>
+            </details>
+            <details>
+                <summary>befristete Mitgliedschaft (Schnuppermitgliedschaft</summary>
+                <p>Aktive Mitglieder als freiwillig Wehrpflichtige oder 
+                    im freiwilligen sozialen Jahr werden auf Antrag 1 Jahr 
+                    von der Verpflichtung zur Beitragzahlung befreit; 
+                    sie sind im Jahr der Befreiung normal spielberechtigt.</p>
+            </details>
+            <details>
+                <summary>Gastbeiträge</summary>
+                
+                <table class="Preistabelle" style="align-self:center;">
+                    <tr class="Preistabelle_zeile Preistabelle_zeile1">
+                        <th class="Kopfzeile"></th>
+                        <th class="Kopfzeile">Pro Tag</th>
+                        <th class="Kopfzeile">Pro Stunde</th>
+                       
+                    </tr> 
+                    <tr class="Preistabelle_zeile">
+                        <tr class="Preistabelle_zeile">
+                        <td class="Preistabelle_item">Erwachsene</td>
+                        <td class="Preistabelle_item">12,00 &#8364;</td>
+                        <td class="Preistabelle_item">8,00 &#8364;</td>
+                        
+                    </tr>
+                    <tr class="Preistabelle_zeile">
+                        <tr class="Preistabelle_zeile">
+                        <td class="Preistabelle_item">Kinder und Jugendliche</td>
+                        <td class="Preistabelle_item">3,00 &#8364;</td>
+                        <td class="Preistabelle_item"> k.A</td>
+                   
+                    </tr>
+
+
+                </table>
+            </details>
+            <details>
+                <summary>Umlagen und Beitragsändeurngen</summary>
+                <p>Die Satzung ermächtigt den Vorstand, notfalls
+                     auch im laufenden Geschäftsjahr Umlagen zu 
+                     erheben oder Beitragsänderungen durchzuführen,
+                     ohne daß hieraus ein besonderes Kündigungsrecht 
+                     hergeleitet werden kann.
+                    </p>
+
+                <p>Alle aktiven Mitglieder im Alter von 16 bis 65
+                     Jahren leisten im laufenden Jahr 3 Arbeitsstunden.
+                      Die Termine werden über den 1. Beisitzer koordiniert. 
+                      Für Mitglieder, die keine Arbeitsstunden leisten, wird 
+                      zum 15. November eines jeden Jahres eine Arbeitsumlage in 
+                    Höhe von € 30,- pro zahlungspflichtigem Mitglied eingezogen.
+                </p>
+            </details>
+            <details>
+                <summary>Statusstichtag</summary>
+                <p>Bei Clubeintritt ist der Status (Alter, Ehe, Zusammenleben, Kinder) 
+                    zum Zeitpunkt des Eintritts maßgeblich.</p>
+                <p>Für den laufenden Jahresbeitrag ist der Status (Alter, Kinder) 
+                    zum Zeitpunkt 01. Januar des Beitragsjahres maßgeblich.</p>
+            </details>
+            <details>
+                <summary>Einzugsermächtigung</summary>
+                <p>Eine Neumitgliedschaft ist nur unter der Voraussetzung möglich, 
+                    dass das Neumitglied eine Einzugsermächtigung 
+                    nach SEPA-Basis-Lastschriftverfahren erteilt hat.</p>
+            </details>
+            <details>
+                <summary>Fälligkeit</summary>
+                <p>Mitgliedsbeiträge werden bei bestehender Mitgliedschaft
+                     am 01. Januar eines jeden Kalenderjahres fällig und gemäß 
+                     obiger Ausführung per Lastschrift eingezogen. Bei Neueintritt
+                      erfolgt der Einzug des aktuellen Jahresbeitrages 
+                    nach Bestätigung der Mitgliedschaft durch den Vorstand.</p>
+            </details>
+            <details>
+                <summary>Aktivierung und Inaktivierung</summary>
+                <p>Wird eine fördernde Mitgliedschaft in eine 
+                    aktive Mitgliedschaft umgewandelt, so ist die
+                    Zahlung des Jahresbeitrages des laufenden Geschäftsjahres
+                    fällig. Geschieht die Aktivierung im laufenden Geschäftsjahr, 
+                    so ist die Differenz vom Inaktivenbeitrag zum vollen Jahresbeitrag,
+                     nach dem 31.07. die Differenz zum halben Jahresbeitrag zu zahlen. 
+                     Bei einmaliger Umwandlung können die 
+                    unter 2.7 und 2.8 genannten Rabatte berücksichtigt werden.</p>
+                    <p>Die Umwandlung einer aktiven Mitgliedschaft in eine inaktive Mitgliedschaft ist jeweils nur zum Ende eines Geschäftsjahres zum 
+                        31.12. für das darauffolgende Jahr möglich (siehe auch Folgenden Punkt).</p>
+            </details>
+            <details>
+                <summary>Kündigungsfirst</summary>
+                <p>Der Austritt eines Mitglieds sowie eine Umwandlung der 
+                    Mitgliedschaft in eine inaktive Mitgliedschaft kann nur 
+                    zum Schluss eines Geschäftsjahres erfolgen und muss dem 
+                    Vorstand bis zum 31.07. durch einen 
+                    eingeschriebenen Brief oder per Mail angezeigt werden.</p>
+            </details>
+
+
+        </div>
+
+
+
+
+    </div>
+</div></div>
+    
+
+<div class="footer">
+    <div class="footer-text">
+        <div class="footer-kontakt">
+            <div class="footer_headline">
+                <h2 class="footer_headline_text">Kontakt</h2>
+            </div>
+            <div class="footer_auflistung">
+                <ul class="footer_liste">
+                    <li><a href="mailto:info@tcbw-tuernich">E-Mail</a></li>
+                    <li><a href="tel:02237 7177">Telefon</a></li>
+                    <li><a href="https://www.youtube.com/channel/UCXNMsE-8c7zo350i6xCX9ww/featured" target="_blank">YouTube</a></li>
+                    <li><a href="https://www.facebook.com/TCBWTuernich1965/" target="_blank">Facebook</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer_richtlinien">
+            <div class="footer_headline">
+                <h2 class="footer_headline_text">Richtlinien</h2>
+            </div>
+            <div class="footer_auflistung">
+                <ul class="footer_liste">
+                    <li><a id="link_impressum" href="/HTML/Unterverzeichnisse/Impressum.html">Impressum </a></li>
+                </ul>
+
+            </div>
+
+            
+        </div>    
+    </div>    
+               
+
+
+
+
+
+
+
+    <div class="right-section">
+        <img class ="wappen" src="/Bilder/WappenTürnich.gif">
+        <a href="https://www.stadt-kerpen.de/" target="_blank"><img class ="wappen" src="/Bilder/WappenKerpen.gif" alt="Bild"></a>
+        
+    </div>
+
+</div>
+
+
+
+
+
+
+    
+
+
+
+</body>
+
+
+
+
+
+
+
+
+</html>

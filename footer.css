@@ -1,0 +1,109 @@
+.footer{
+    background-color: rgb(33,60,91);
+    display: flex;  
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white; 
+    margin-top: 100px;
+    align-items: center;
+
+}
+.footer_fixed{
+    background-color: rgb(33,60,91);
+    display: flex;  
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white; 
+    margin-top: 100px;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.right-section{
+    margin-right: 10px;
+}
+
+#footer-liste li{
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+#footer-liste li a{
+    color: white; 
+    text-decoration: none;
+    color: white; 
+    font-size: 17px;
+    font-family: roboto;
+    letter-spacing: 0.8px;
+
+
+}
+
+#footer-liste li a:hover{
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.wappen{
+    margin-top: 10px;
+    height: 80px;
+    padding-right: 10px;
+}
+
+
+.footer-kontakt, .footer_richtlinien{
+    display: inline-block;
+}
+
+.footer-text{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.footer_richtlinien{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footer_liste{
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    
+
+}
+
+.footer_liste li, .footer_headline_text {
+    font-family: Roboto, Arial;
+}
+
+.footer_headline_text{
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.footer_liste li{
+    padding-bottom: 5px;
+}
+
+.footer-kontakt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#link_impressum{
+    color: white;
+    text-decoration: none;
+}
+
+.footer_auflistung ul li a{
+    text-decoration: none;
+    color: white;
+}

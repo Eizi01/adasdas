@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/Styles/Header.css">
+<link rel="stylesheet" href="/Styles/general.css">
+<link rel="stylesheet" href="/Styles/Navbar.css">
+<link rel="stylesheet" href="/Styles/images.css">
+<link rel="stylesheet" href="/Styles/div-startseite.css">
+<link rel="stylesheet" href="/Styles/footer.css">
+<link rel="stylesheet" href="/Styles/club-info.css">
+<link rel="stylesheet" href="/Styles/impressum.css">
+<link rel="icon" type="image/png" href="/Bilder/Logo.jpg">
+</head>
+<style>
+
+
+.liste_ausschreibung{
+    list-style-type: circle;
+}
+
+
+.span_listeüberschrift{
+    font-size: 10px;
+}
+
+
+.flex_impressum_item_button{
+    display: inline-block;
+
+}
+
+.flex_impressum_item_button{
+    color: white;
+    background-color: rgb(63, 99, 139);
+    border-color: rgb(63, 99, 139);
+    border: none;
+    border-radius: 45px;
+    padding: 10px 8px 10px 8px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+
+.flex_impressum_item_button:hover{
+    background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.flex_impressum_item_button a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.flexbox_header{
+  background-color: rgb(33,60,91);
+  height: 5rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.titel_schrift{
+  color: white;
+  font-family: Roboto, Arial;
+}
+
+.titel_schrift h1{
+ font-weight: 400;
+}
+
+.span_titel{
+  font-weight: 100;
+}
+
+
+nav ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+    text-align: center;
+}
+
+nav ul{
+  align-self: center;
+  display: inline-block ;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    padding:0px 15px 0 15px;
+    display: block;
+    font-family: Roboto, Arial;
+}
+nav ul li a:hover{
+    text-decoration: underline
+    
+}
+nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: rgb(33,60,91);
+    padding: 7px;
+    border-radius: 0px 0px 12px 12px;
+}
+
+nav ul li:hover ul{
+    display: block;
+}
+
+
+nav ul li ul li a{
+    color: white;
+    padding: 16px 20px;
+    border-radius: 10px;
+}
+nav ul li ul li a:hover{
+    background-color: rgb(63, 99, 139);
+    text-decoration: none;
+}
+
+
+body {
+    padding-top: 100px;
+}
+</style>
+
+
+
+<body>
+    <div class="flexbox_header">
+        <div class="titel_schrift">
+          <h1> <span class="span_titel">TCBW</span> Türnich</h1>
+      
+        </div>
+      
+      
+      
+        <nav class="navbar">
+            <ul>
+                <li><a href="/HTML/index.html">Home</a></li>
+                <li><a href="/HTML/Unterverzeichnisse/Club_Info.html">Club-Info &dtrif;</a>
+                <ul>
+                    <li><a href="/HTML/Unterverzeichnisse/Preise.html">Preise</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Satzungen.html">Satzung</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Platz und Spielordnung.html">Spielordnung</a></li>
+                </ul>
+                </li>
+                <li><a href="/HTML/Unterverzeichnisse/Training.html">Training &dtrif;</a>
+                    <ul>
+                        <li><a href="/HTML/Unterverzeichnisse/Training_jugendarbeit.html">Jugendarbeit</a></li>
+                    </ul>
+                </li>
+                <li><a href="/HTML/Unterverzeichnisse/">Mannschaft &dtrif;</a>
+                <ul>
+                    <li><a href="/HTML/Unterverzeichnisse/Herren30.html">Herren 30</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Herren401.html">Herren 40 (1)</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Herren402.html">Herren 40 (2)</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Herren50.html">Herren 50</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Herren65.html">Herren 65</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Damen30.html">Damen 30</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Damen40.html">Damen 40</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Damen50.html">Damen 50</a></li>
+                </ul>
+                </li>
+                <li><a href="/HTML/Unterverzeichnisse/TCT_open.html">TCT &dtrif;</a>
+                    <ul>
+                        <li><a href="/HTML/Unterverzeichnisse/TCTopen_ausschreibung.html">Ausschreibung</a></li>
+                        <li><a href="/HTML/Unterverzeichnisse/">Anmeldung</a></li>
+                    </ul>
+                
+                
+                </li>
+      
+            </ul>
+        </nav>
+      
+      
+      
+      
+      </div>
+
+<div>
+    <h1 class="color_standard center_item">Tennisclub Blau-Weiß Türnich 1965 e.V.</h1>
+</div>
+<div>
+    <h2 class="color_standard center_item">Ausschreibung</h2>
+</div>
+<div class="out_flexbox">
+    <div class="flexbox_impressum_layout">
+        
+        <div class="flex_impressum_item"><h2 class="color_standard">Veranstaltungsinformationen</h2>
+            <p> Veranstaltungsort: Tennisanlage des TC Blau-Weiß Türnich 1965 e.V.</p>
+
+                <p>Telefon: 02237 7177</p>
+                
+                <p>Turnierleitung: Jörn Schwemin und Stephan Urselmann</p>
+                <p>Damenwettbewerb <span class="span_listeüberschrift">(jeweils Leistungsklassen 4 bis 14 und  14 bis 23)</span></p>
+                <ul class="liste_ausschreibung">
+                    <li class="liitem_ausschreibung">Damen</li>
+                    <li class="liitem_ausschreibung">Damen 30</li>
+                    <li class="liitem_ausschreibung">Damen 40</li>
+                    <li class="liitem_ausschreibung">Damen 50+</li> 
+                </ul>
+                <p>Herrenwettbewerb <span class="span_listeüberschrift">(jeweils Leistungsklassen 4 bis 14 und  14 bis 23)</span></p>
+                <ul class="liste_ausschreibung">
+                    <li class="liitem_ausschreibung">Herren 30</li>
+                    <li class="liitem_ausschreibung">Herren 40</li>
+                    <li class="liitem_ausschreibung">Herren 50</li>
+                    <li class="liitem_ausschreibung">Herren 55+</li>
+                </ul>
+
+
+               
+        </div>
+
+        <div>
+        <button class="flex_impressum_item_button"><a href="https://www.tvpro-online.de/turniere/item/30036-8-tct-open-lk-preisgeldturnier" target="_blank">Anmeldung</a></button>
+        <button class="flex_impressum_item_button"><a href="/Datei/2069-8-TCT-Open_Ausschreibung_2019.pdf" target="_blank">Ausschreibung</a></button>
+    
+        </div>
+        
+    
+
+
+
+
+        
+        <div class="flex_impressum_item"><h2 class="color_standard">Weitere Informationen</h2>
+            <p>Bei Bedarf werden Spiele auch auf Ausweichanlagen ausgetragen. Bei Dunkelheit werden
+                 Spiele ggf. unter Flutlicht begonnen oder zu Ende gespielt. Zur Teilnahme sind alle 
+                 berechtigt, die Mitglied eines Tennisvereins des DTB sind und die Ausschreibungsbedingungen 
+                erfüllen mit einer Spieler ID-Nr. und einer LK-Einstufung von 5 und höher. 
+            </p></div>
+        <div class="flex_impressum_item">
+            <p>Je Teilnehmerfeld sind 32 Spieler(innen) vorgesehen - Größere Hauptfelder sind 
+                je nach Meldeeingängen möglich. Bei weniger als 8 Meldungen können Wettbewerbe 
+                gestrichen oder zusammengelegt werden. Es kann nur eine Konkurrenz 
+                je Spieler gemeldet werden! </p></div>
+        <div class="flex_impressum_item">
+            <p>In jedem Wettbewerb wir eine Hauptrunde und eine 
+                Nebenrunde ausgetragen. Für das Turnier gelten die
+                 Wettspielordnung des TVM, die Turnierordnung des DTB 
+                 und die Tennisregeln des ITF. Alle Spiele werden auf 2 Gewinnsätze ausgetragen, 
+                der 3. Satz wird als Champions-Tie-Break (bis 10) ausgespielt.</p></div>
+        <div class="flex_impressum_item">
+            <p>Der Belag ist Asche, in Falle von Regen kann in die Tennishalle Kerpen ausgewichen werden;
+                der Belag dort ist Rebound Ace (Profilschuhe mit hellen Sohlen).
+                 Für beide Beläge sind entsprechende Schuhe mitzubringen</p></div>
+        <div class="flex_impressum_item">
+            <p>Als Spielball wird Dunlop von der Turnierleitung bereitgestellt. 
+
+                Das Nenngeld beträgt € 25,- zzgl. € 5,- (Abgabe an den DTB) und ist vor
+                 Spielbeginn bei der Turnierleitung zu entrichten.</p></div>
+        <div class="flex_impressum_item">
+            <p>In jedem Wettbewerb wir eine Hauptrunde und eine Nebenrunde 
+                ausgetragen. Für das Turnier gelten die Wettspielordnung des TVM, 
+                die Turnierordnung des DTB und die Tennisregeln des ITF. Alle Spiele werden auf 2 Gewinnsätze ausgetragen, der 3. Satz wird als Champions-Tie-Break (bis 10) ausgespielt. 
+                </p>
+                <p>Der Belag ist Asche, in Falle von Regen kann in die Tennishalle
+                 Kerpen ausgewichen werden; der Belag dort ist Rebound Ace (Profilschuhe mit 
+                 hellen Sohlen). Für beide Beläge sind entsprechende Schuhe mitzubringen.</p> </div>
+        <div class="flex_impressum_item">
+            <p>Die Finalisten der Hauptrunden erhalten Preisgeld, die der Nebenrunden erhalten Sachpreise.</p>
+
+                <p>Der Veranstalter behält sich das Recht vor, ohne Angabe von Gründen, Meldungen zurück zu weisen. Der Verhaltenskodex findet Anwendung.</p>
+                
+                <p>Die Teilnehmer haben Informationspflicht und können ihre Spieltermine am Sonntag, 28.07.2017 ab 14:00 Uhr online über TVPro-Online einsehen.</p></div>
+        <div class="flex_impressum_item">
+            <p>Ebenfalls können die Spiele im Clubhaus des TC BW Türnich eingesehen werden.</p>
+
+                <p>Die Spiele finden wochentags ab 16:30 Uhr, am Wochenende ab 9:00 Uhr statt. Die Endspiele sind für den Sonntag, 11 August ab 9:00 Uhr geplant.</p>
+                
+                <p>Jede(r) Spieler(in) hat sich 15 Minuten vor Spielbeginn bei der Turnierleitung zu melden. Teilnehmer, die 15 Minuten nach dem angesetzten 
+                Termin nicht spielbereit sind, können von der Turnierleitung gestrichen werden</p></div>
+        <div class="flex_impressum_item">
+            <p>Coaching während der Turnierspiele ist nicht gestattet. Den Weisungen des Oberschiedsrichters ist zwingend Folge zu leisten.</p>
+
+                <p>Mit Spielantritt wird davon ausgegangen, dass die Spieler/innen gesundheitlich fit sind. Darüber hinaus sollten alle Spieler/innen über einen ausreichenden Versicherungsschutz verfügen. Forderungen (wegen Verlust, Verletzungen, Sachschäden etc.) gegen den Veranstalter bzw. Ausrichter sind ausgeschlossen. Die ärztliche Versorgung erfolgt bei Bedarf über den örtlichen Notdienst.</p>
+                
+                <p>Teilnehmer(innen) erklären sich mit Nennung damit einverstanden, dass Ergebnisse und Berichte sowie Bilder, die ihn/sie tangieren, im Internet und weiteren Medien verbreitet werden.</p></div>
+
+       
+
+
+
+
+
+
+    </div>
+</div>
+
+
+
+<div class="footer">
+    <div class="footer-text">
+        <div class="footer-kontakt">
+            <div class="footer_headline">
+                <h2 class="footer_headline_text">Kontakt</h2>
+            </div>
+            <div class="footer_auflistung">
+                <ul class="footer_liste">
+                    <li>E-Mail</li>
+                    <li>Telefon</li>
+                    <li>Instagram</li>
+                    <li>Facebook</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer_richtlinien">
+            <div class="footer_headline">
+                <h2 class="footer_headline_text">Richtlinien</h2>
+            </div>
+            <div class="footer_auflistung">
+                <ul class="footer_liste">
+                    <li><a id="link_impressum" href="/HTML/Unterverzeichnisse/Impressum.html">Impressum </a></li>
+                </ul>
+
+            </div>
+
+            
+        </div>    
+    </div>
+
+    <div class="right-section">
+        <img class ="wappen" src="/Bilder/WappenTürnich.gif">
+        <a href="https://www.stadt-kerpen.de/" target="_blank"><img class ="wappen" src="/Bilder/WappenKerpen.gif" alt="Bild"></a>
+        
+    </div>
+</div>
+</body>
+</html>

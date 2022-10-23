@@ -1,0 +1,81 @@
+.Navbar{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+background-color: rgb(33,60,91);
+position: fixed;
+top:0;
+width: 100%;
+height: 70px;
+z-index: 1;
+flex-wrap: wrap;
+}
+
+
+/*Konfig. left Sektor.*/
+.left-section{
+    margin-left: 100px;
+}
+
+    #Logo{
+        color: white;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 200;
+    }
+    .left-section h1{
+        font-weight: 200;
+    }
+    .left-section span{
+        font-weight: 400;
+    }
+    
+    /*Konifg. middel Sektor.*/
+.middle-section{
+    margin-right: 20px;
+    
+    
+}
+/*Konfig. left Sektor + Navigationsleiste in Form Aufzählung.*/
+    #ul-nav{
+        margin-right: 20px ;
+       
+    }
+
+    #ul-nav li{
+        text-decoration: none;
+        display: inline-block;
+        padding-right: 15px;
+       
+    }
+
+    #ul-nav li a{
+        text-decoration: none;
+        color: white; 
+        font-size: 17px;
+        font-family: roboto;
+        letter-spacing: 0.5px;
+        margin: 0; 
+        
+    }
+
+
+    #ul-nav li a:hover{
+       text-decoration: underline;
+        text-underline-position: under;
+
+    }
+
+
+   /* https://dev.to/kiranrajvjd/10-simple-navigation-bar-hover-animations-1980*/
+
+
+   .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }

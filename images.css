@@ -1,0 +1,19 @@
+#Tennisball-Bild{
+    width: 100%;
+    height: auto;
+}
+
+
+#Michi_Tempel{
+    height: 400px; 
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    
+}
+
+
+#StadtKerpen{
+    margin-left: 10px;
+}

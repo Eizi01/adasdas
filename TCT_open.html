@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/Styles/Header.css">
+<link rel="stylesheet" href="/Styles/general.css">
+<link rel="stylesheet" href="/Styles/Navbar.css">
+<link rel="stylesheet" href="/Styles/images.css">
+<link rel="stylesheet" href="/Styles/div-startseite.css">
+<link rel="stylesheet" href="/Styles/footer.css">
+<link rel="stylesheet" href="/Styles/club-info.css">
+<link rel="stylesheet" href="/Styles/impressum.css">
+<link rel="icon" type="image/png" href="/Bilder/Logo.jpg">
+</head>
+<style>
+
+
+body {
+    padding-top: 100px;
+}
+
+
+
+.grid_layout_TCT{
+    display: grid;
+    grid-template-columns: 300px;
+    justify-content: center;
+    text-align: center;
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+    text-align: center;
+}
+
+nav{
+    justify-content: center;
+    justify-items: center;
+}
+
+
+
+nav ul li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding:0px 15px 0 15px;
+    display: block;
+    font-family: Roboto, Arial;
+}
+nav ul li a:hover{
+    text-decoration: underline
+    
+}
+nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: rgb(33,60,91);
+    padding: 7px;
+    border-radius: 0px 0px 12px 12px;
+}
+
+nav ul li:hover ul{
+    display: block;
+}
+
+
+nav ul li ul li a{
+    color: white;
+    padding: 16px 20px;
+    border-radius: 10px;
+}
+nav ul li ul li a:hover{
+    background-color: rgb(63, 99, 139);
+    text-decoration: none;
+}
+
+
+.grid_layout_tct_bilder{
+    display: grid;
+    grid-template-columns:495px 495px;
+    column-gap: 20px;
+    row-gap: 10px;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+
+.tct_bild{
+    width: 300px;
+    height: 300px;
+}
+
+figure{
+    text-align: center;
+    font-size: 8px;
+}
+figcaption {
+     text-align: center;
+     font-size: 12px;
+     color: black;
+     padding: 3px;
+     font-family: Roboto, Arial;
+}
+
+.button_ausschreibung{
+    color: white;
+    background-color: rgb(63, 99, 139);
+    border-color: rgb(63, 99, 139);
+    border: none;
+    border-radius: 45px;
+    padding: 10px 8px 10px 8px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-items: center;
+    align-self: center;
+    justify-self: center;
+}
+
+.button_ausschreibung:hover{
+    background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+  
+.flexbox_header{
+  background-color: rgb(33,60,91);
+  height: 5rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.titel_schrift{
+  color: white;
+  font-family: Roboto, Arial;
+}
+
+.titel_schrift h1{
+ font-weight: 400;
+}
+
+.span_titel{
+  font-weight: 100;
+}
+
+
+nav ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+    text-align: center;
+}
+
+nav ul{
+  align-self: center;
+  display: inline-block ;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    padding:0px 15px 0 15px;
+    display: block;
+    font-family: Roboto, Arial;
+}
+nav ul li a:hover{
+    text-decoration: underline
+    
+}
+nav ul li ul{
+    display: none;
+    position: absolute;
+    background-color: rgb(33,60,91);
+    padding: 7px;
+    border-radius: 0px 0px 12px 12px;
+}
+
+nav ul li:hover ul{
+    display: block;
+}
+
+
+nav ul li ul li a{
+    color: white;
+    padding: 16px 20px;
+    border-radius: 10px;
+}
+nav ul li ul li a:hover{
+    background-color: rgb(63, 99, 139);
+    text-decoration: none;
+}
+
+</style>
+
+
+
+<body>
+
+
+    <div class="flexbox_header">
+        <div class="titel_schrift">
+          <h1> <span class="span_titel">TCBW</span> Türnich</h1>
+      
+        </div>
+      
+      
+      
+        <nav class="navbar">
+            <ul>
+                <li><a href="/HTML/index.html">Home</a></li>
+                <li><a href="/HTML/Unterverzeichnisse/Club_Info.html">Club-Info &dtrif;</a>
+                <ul>
+                    <li><a href="/HTML/Unterverzeichnisse/Preise.html">Preise</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Satzungen.html">Satzung</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Platz und Spielordnung.html">Spielordnung</a></li>
+                </ul>
+                </li>
+                <li><a href="/HTML/Unterverzeichnisse/Training.html">Training &dtrif;</a>
+                    <ul>
+                        <li><a href="/HTML/Unterverzeichnisse/Training_jugendarbeit.html">Jugendarbeit</a></li>
+                    </ul>
+                </li>
+                <li><a href="/HTML/Unterverzeichnisse/">Mannschaft &dtrif;</a>
+                <ul>
+                    <li><a href="/HTML/Unterverzeichnisse/Herren30.html">Herren 30</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Herren401.html">Herren 40 (1)</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Herren402.html">Herren 40 (2)</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Herren50.html">Herren 50</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Herren65.html">Herren 65</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Damen30.html">Damen 30</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Damen40.html">Damen 40</a></li>
+                    <li><a href="/HTML/Unterverzeichnisse/Damen50.html">Damen 50</a></li>
+      
+                </ul>
+                </li>
+                <li><a href="/HTML/Unterverzeichnisse/TCT_open.html">TCT &dtrif;</a>
+                    <ul>
+                        <li><a href="/HTML/Unterverzeichnisse/TCTopen_ausschreibung.html">Ausschreibung</a></li>
+                        <li><a href="/HTML/Unterverzeichnisse/">Anmeldung</a></li>
+                    </ul>
+                
+                
+                </li>
+      
+            </ul>
+        </nav>
+      
+      
+      
+      
+      </div>
+
+
+
+
+<div class="grid_layout_TCT">
+    <div class="tcbw_text"><p>Tennisclub Blau-Weiß Türnich 1965 e.V.</p></div>
+    <div class="überschrift_tct"><p style="text-align: center;"><b>TCT</b></p></div>
+    <div class="untertext_tct">
+        <p>Die 9. TCT Open musste wegen Corona leider abgesagt werden.
+         Wir hoffen, dass wir 2021 wieder für Sie da sein können!</p>
+        </div>
+
+
+    <div>
+        <p>Hier kommen Sie zur Ausschreibung</p></div>
+
+
+        <button class="button_ausschreibung">
+            <a href="/Datei/2069-8-TCT-Open_Ausschreibung_2019.pdf" target="_blank" style="text-decoration: none; color: white; ">Ausschreibung</a></button>
+    
+</div>
+
+<div class="grid_layout_tct_bilder">
+     <figure>
+        <img src="/Bilder/Finalisten_TCT.jpg">
+    <figcaption> Die Finalisten 2019</figcaption>
+    
+    </figure>
+
+   <figure>
+        <img src="/Bilder/test.jpg">
+    <figcaption>TCT Open - auch 2018 wieder erfolgreich</figcaption>
+    
+    </figure> 
+    
+   <figure>
+    <img src="/Bilder/_wsb_495x331_Sieger.jpg">
+
+        <figcaption>Endspielteilnehmer TCT Open 2017</figcaption>
+    
+    
+    </figure>
+
+
+    <figure>
+        <img src="/Bilder/_wsb_495x331_Besuch.jpg">
+    <figcaption>Besucher</figcaption>
+    
+
+    </figure> 
+
+</div>
+
+
+
+
+<div class="footer">
+    <div class="footer-text">
+        <div class="footer-kontakt">
+            <div class="footer_headline">
+                <h2 class="footer_headline_text">Kontakt</h2>
+            </div>
+            <div class="footer_auflistung">
+                <ul class="footer_liste">
+                    <li>E-Mail</li>
+                    <li>Telefon</li>
+                    <li>Instagram</li>
+                    <li>Facebook</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer_richtlinien">
+            <div class="footer_headline">
+                <h2 class="footer_headline_text">Richtlinien</h2>
+            </div>
+            <div class="footer_auflistung">
+                <ul class="footer_liste">
+                    <li><a id="link_impressum" href="/HTML/Unterverzeichnisse/Impressum.html">Impressum </a></li>
+                </ul>
+
+            </div>
+
+            
+        </div>    
+    </div>
+
+    <div class="right-section">
+        <img class ="wappen" src="/Bilder/WappenTürnich.gif">
+        <a href="https://www.stadt-kerpen.de/" target="_blank"><img class ="wappen" src="/Bilder/WappenKerpen.gif" alt="Bild"></a>
+        
+    </div>
+</div>
+</body>
+</html>
